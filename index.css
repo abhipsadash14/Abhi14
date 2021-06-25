@@ -1,0 +1,179 @@
+
+#main-header
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 0px;
+}	
+#main-nav
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: -25px;
+}
+#anchor-tag a
+{
+	text-decoration: none;
+	color: black;
+	margin-right: 20px;
+}
+#main-section 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#main-section #main-article #txt
+{
+	margin-top: -350px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#main-section #main-article #txt1
+{
+	margin-top: -20px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#main-section #main-article #txt2
+{
+	margin-top: -18px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#middle-section 
+{
+	display: flex;
+	align-items: center;
+	margin-top: 96px;
+}
+#middle-section #first-article
+{
+	background: lightgrey;
+	padding: 25px 25px 25px 312px;
+	text-align: center;
+}
+#middle-section #second-article
+{
+	background: darkgrey;
+	padding: 25px 50px;
+	text-align: center;
+}
+#middle-section #third-article
+{
+	background: grey;
+	padding: 25px 312px 25px 25px;
+	text-align: center;
+}
+#small-section #small-article
+{
+	padding: 70px;
+}
+#img-section
+{
+	display: flex;
+	align-items: center;
+}
+#img-section #p-article
+{
+	background-color: lightgrey;
+	width: 50%;
+}
+#img-section #img-article
+{
+	width: 50%;
+}
+#img2-section
+{
+	display: flex;
+	align-items: center;
+	color: white;
+}
+#last-section
+{
+	display: flex;
+	align-items: center;
+	margin-top: 70px;
+	height: 120px;
+}
+#last-section #form-article #form #a,#b,#c,#d,#f
+{
+	width: 50%;
+	padding: 5px;
+	line-height: 10px;
+	margin-bottom: 5px;
+}
+#last-section #form-article #form #f
+{
+	margin-top: 10px;
+	padding: 18px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+#footer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 150px;
+	line-height: 20px;
+}
+#footer #icons .fab
+{
+	color: grey;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+@media (min-width: 0px) and (max-width: 800px)
+{
+	#main-header
+	{
+		flex-direction: column;
+		line-height: 50px;
+	}
+	#main-nav
+	{
+		flex-direction: column;
+		line-height: 40px;
+	}
+	#main-section
+	{
+		flex-direction: column;
+		margin-top: 100px;
+		display: none;
+	}
+	#middle-section
+	{
+		flex-direction: column;
+	}
+	#img-section
+	{
+		flex-direction: column;
+		display: none;
+	}
+	#img2-section
+	{
+		flex-direction: column;
+		display: none;
+	}
+	#last-section
+	{
+		flex-direction: column;
+		display: none;
+	}
+	#footer
+	{
+		flex-direction: column;
+		margin-top: 0px;
+	}
+}
